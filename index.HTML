@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="form centered">
+        <label for="name-input">Enter A New Player</label> 
+        <input type='text' name="name-input" class="name-input" placeholder="Name"> 
+        <input type="submit" class="gui-add-player-button">
+    </form>
+    <br>
+    <div class="bold centered current-players">Current Players:</div>
+    <div class="gui-player-list"></div>
+    <br>
+    <div class="button-container">
+        <button class="start-tournament-button">Start Tournament</button>
+    </div>
+    <br></br>
+    <hr>
+    <div class="all-rounds"></div>
+    <div class="centered">
+        <button class="button next-round-button">Next Round</button>
+        <button class="complete-tournament">Complete</button>
+    </div>
+    <div class="results">
+    </div>
+    
+    <script src="tournament.js"></script>
+</body>
+</html>
